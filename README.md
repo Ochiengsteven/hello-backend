@@ -19,7 +19,9 @@
 
 
 <br>
-Hello Rails Backend app is a test project on implementing a Ruby on Rails back-end to serve an API for a separate React front-end. Here is the repository for the front-end: `https://github.com/Ochiengsteven/hello-rails-react-frontend`<br>
+Hello Rails Backend app is a test project on implementing a Ruby on Rails back-end to serve an API for a separate React front-end. <br>
+
+- ### Here is the repository for the front-end: [Link](https://github.com/Ochiengsteven/hello-rails-react-frontend)
 
 ## 🛠 Built With <a name="built-with"></a>
 <br>
