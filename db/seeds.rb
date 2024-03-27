@@ -8,8 +8,12 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Message.create(content: "Hello, how are you?")
-Message.create(content: "Hi there!")
-Message.create(content: "Greetings!")
-Message.create(content: "Good day!")
-Message.create(content: "Welcome!")
+greetings = [
+  "Hello, how are you?",
+  "Hi, what's up?",
+  "Hey, hope you're doing well!"
+]
+
+greetings.each do |greeting|
+  Greeting.create(content: greeting)
+end
